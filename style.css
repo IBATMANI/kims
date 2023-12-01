@@ -3,4 +3,52 @@
     padding: 0;
     border: 0;
   }
-  
+
+  body {
+    background-color: #f2ece4;
+}
+
+
+.overskrift {
+  align-items: center;
+  font-size: 22px;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+
+
+.produkter {
+  display: flex;
+  flex-direction: column;
+  padding: 0%;
+  margin: 0%;
+
+}
+
+.fordele {
+  background-color: #ebe3d9;
+}
+
+.lastbil {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.skrift {
+  align-items: center;
+  font-size: 22px;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+
+footer {
+    background-color: #e1dace;
+  }
