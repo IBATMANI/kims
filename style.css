@@ -22,7 +22,7 @@
 
 
 .produkter {
-  display: flex;
+  display: flex 2;
   flex-direction: column;
   padding: 0%;
   margin: 0%;
