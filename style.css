@@ -8,9 +8,18 @@
     background-color: #f2ece4;
 }
 
+@font-face {
+  font-family: 'VAG Rounded Black SSi';
+  src: url(fonts/VAG\ Rounded\ Black\ SSi\ Bold.ttf);
+}
 
+@font-face {
+  font-family: 'VAG Rounded Lt';
+  src: url(fonts/VAGRoundedLtNormal.ttf);
+}
 
 h1 {
+  font-family: VAG Rounded Black SSi;
   text-align: center;
   font-size: 22px;
   margin-top: 50px;
@@ -20,7 +29,7 @@ h1 {
 }
 
 .valg {
-  margin-bottom: 50px;
+  margin-bottom: 0px;
   display: block;
 }
 
@@ -36,6 +45,7 @@ h1 {
   font-size: 22px;
   margin-top: 50px;
   margin-bottom: 15px;
+  font-family: VAG Rounded Black SSi;
   
 }
 
@@ -43,15 +53,17 @@ h1 {
 .fordele {
   background-color: #ebe3d9;
   display: inline-block
+  
 }
 
 .kasse {
   margin-left: 25%;
   margin-right: 25%;
+  margin-bottom: 50px;
 }
 
 .lastbil {
-  margin-top: 50px;
+  margin-top: 0px;
   margin-bottom: 50px;
   margin-left: 25%;
   margin-right: 25%;
@@ -69,20 +81,43 @@ h1 {
   margin-right: 15px;
 }
 
+.slogan {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
 footer {
     background-color: #e1dace;
   }
 
 
 .skriftfooter {
+    font-family: VAG Rounded Black SSi;
     display: inline-block;
     text-align: left;
     font-size: 22px;
     margin-top: 40px;
     margin-bottom: 15px;
     margin-left: 40px;
+    margin-right: 40px;
+    width: 310px;
     
 }
+
+.skriftfooter2 {
+  font-family: VAG Rounded Lt;
+  display: inline-block;
+  text-align: left;
+  font-size: 22px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  margin-left: 40px;
+  margin-right: 40px;
+  
+}
+
 
 hr {
   display: block;
