@@ -33,11 +33,22 @@ h1 {
   display: block;
 }
 
+.valgmobil {
+  float: left;
+  width: 50%;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .produkter {
   float: left;
   padding: 0%;
   margin: 0% 0% 0% 0%;
-
+  width: 100%;
 }
 
 .skrift {
@@ -52,7 +63,7 @@ h1 {
 
 .fordele {
   background-color: #ebe3d9;
-  display: inline-block
+  display: inline-block;
   
 }
 
@@ -81,6 +92,17 @@ h1 {
   margin-right: 15px;
 }
 
+.somevalg {
+  width: 100%;
+  height: auto;
+  max-width: 768px;
+}
+
+.somemobil {
+  float: left;
+  width: 50%;
+}
+
 .slogan {
   margin-top: 25px;
   margin-bottom: 25px;
@@ -92,8 +114,7 @@ footer {
     background-color: #e1dace;
   }
 
-
-.skriftfooter {
+.overskriftfooter {
     font-family: VAG Rounded Black SSi;
     display: inline-block;
     text-align: left;
@@ -106,18 +127,45 @@ footer {
     
 }
 
+.skriftfooter {
+    font-family: VAG Rounded Black SSi;
+    display: inline-block;
+    text-align: left;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 310px;
+    
+}
+
 .skriftfooter2 {
-  font-family: VAG Rounded Lt;
+  font-family: VAG Rounded Black SSi;
   display: inline-block;
   text-align: left;
-  font-size: 22px;
-  margin-top: 40px;
-  margin-bottom: 15px;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 10px;
   margin-left: 40px;
   margin-right: 40px;
+  width: 310px;
   
 }
 
+.skriftfooter3 {
+  font-family: VAG Rounded Lt;
+  display: inline-block;
+  text-align: left;
+  font-size: 16px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+  width: 310px;
+  font-weight: normal;
+  
+}
 
 hr {
   display: block;
@@ -129,19 +177,261 @@ hr {
 }
 
 .ikon {
-  margin-top: 40px;
+  margin-top: 15px;
   margin-left: 40px;
   margin-right: 10px;
 }
 
 .ikon2 {
   margin-right: 10px;
+  margin-top: 15px;
+}
+
+.valgtablet {
+  display: none;
+}
+
+.valgdesk {
+  display: none;
+}
+
+.banner1tablet {
+  display: none;
+}
+
+.banner1desk {
+  display: none;
+}
+
+.fordeletablet {
+  display: none;
+}
+
+.fordeledesk {
+  display: none;
+}
+
+.sometablet {
+  display: none;
+}
+
+.somedesk {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  
+  .valg {
+    margin-bottom: 0px;
+    display: none;
+  }
+
+  .valgdesk {
+    display: none;
+  }  
+
+  .valgtablet {
+    margin-bottom: 0px;
+    display: block;
+  }
+
+  .produktertablet {
+    float: left;
+    width: 25%;
+  }
+
+  .banner1 {
+    display: none;
+  }
+  
+  .banner1desk {
+    display: none;
+  }
+
+  .banner1tablet {
+    display: block;
+  }
+
+  .fordele {
+  background-color: #ebe3d9;
+  float: left;
+  display: block;
+  width: 100%;
+  max-width: 1024px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+  
+.kasse {
+  display: none;
+}
+
+.lastbil {
+  display: none;
+}
+
+.fordeledesk {
+  display: none;
+}
+
+.fordeletablet {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.kassetablet {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.lastbiltablet {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.somemobil {
+  display: none;
+}
+
+.somedesk {
+  display: none;
+}
+
+.sometablet {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.overskriftfooter {
+  font-family: VAG Rounded Black SSi;
+  display: inline-block;
+  text-align: left;
+  font-size: 22px;
   margin-top: 40px;
+  margin-bottom: 15px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.skriftfooter {
+  font-family: VAG Rounded Black SSi;
+  display: inline-block;
+  text-align: left;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  
+}
+
+.skriftfooter2 {
+font-family: VAG Rounded Black SSi;
+display: inline-block;
+text-align: left;
+font-size: 16px;
+margin-top: 15px;
+margin-bottom: 10px;
+margin-left: 0px;
+margin-right: 0px;
+
+}
+
+.skriftfooter3 {
+font-family: VAG Rounded Lt;
+display: inline-block;
+text-align: left;
+font-size: 16px;
+margin-top: 0px;
+margin-bottom: 10px;
+font-weight: normal;
+margin-left: 0px;
+margin-right: 0px;
+
+}
+
+.footerrow {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.footer1 {
+  text-align: left;
+  width: 160px;
+
+}
+
+.footer2 {
+  text-align: left;
+  width: 160px;
+
+}
+
+.footer3 {
+  text-align: left;
+  width: 255px;
+
+}
+
+.footer4 {
+  text-align: left;
+  display: none;
+  width: 207px;
+}
+
+.ikon {
+  margin-top: 15px;
+  margin-left: 0px;
+  margin-right: 10px;
+}
+
+.ikon2 {
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #beb7ab;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 }
 
 
-@media only screen and (min-width: 768px) {
-  body {
-    background-color: lightblue;
+@media only screen and (min-width: 1024px) {
+  
+  .valg {
+    margin-bottom: 0px;
+    display: none;
   }
+
+  .valgtablet {
+    display: none;
+  }
+
+  .valgdesk {
+    display: block;
+  }  
+
+  .banner1 {
+    display: none;
+  }
+  
+  .banner1tablet {
+    display: none;
+  }
+
+  .banner1desk {
+    display: block;
+  }
+
 }
