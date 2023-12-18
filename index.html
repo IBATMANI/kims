@@ -6,6 +6,8 @@
     <title>kims</title>
     <link href="style.css" rel="stylesheet" type="text/css">
     <script src="menu.js" defer></script>
+    <script src="slider.js" defer></script>
+    <script src="slider1.js" defer></script>
 </head>
 <body>
     <header>
@@ -59,17 +61,40 @@
     </header>
 
     <main>
-        <div>
-            <img class="banner1" src="pics/mobil/banner.png" alt="banner med chips">
-        </div>
+          
 
-        <div>
-            <img class="banner1tablet" src="pics/tablet/banner.png" alt="banner med chips">
-        </div>
+        <div class="slideshow-container">
 
-        <div>
-            <img class="banner1desk" src="pics/desktop/banner.png" alt="banner med chips">
-        </div>
+            <div class="mySlides fade">
+              <img src="pics/desktop/banner1.png" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="pics/desktop/banner2.png" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="pics/desktop/banner3.png" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="pics/desktop/banner4.png" style="width:100%">
+              </div>
+  
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+                <span class="dot" onclick="currentSlide(4)"></span> 
+               
+              </div>
+
+            </div>
+
 
             <div class="valg">
                 <h1 class="skrift">PRODUKTER</h1>
