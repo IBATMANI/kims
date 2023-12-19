@@ -163,8 +163,8 @@
 
 /* Billede slider til banner */
 
-.slideshow-container {
-  max-width: 1000px;
+.slideshow {
+  max-width: 4076px;
   position: relative;
   margin: auto;
 }
@@ -196,7 +196,7 @@
   background-color: rgba(0,0,0,0.8);
 }
 
-.dot {
+.firekant {
   cursor: pointer;
   height: 5px;
   width: 40px;
@@ -206,20 +206,85 @@
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active, .firekant:hover {
   background-color: #FFFFFF;
 }
 
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+.firekanter {
+  text-align:center;
 }
+
+.billedeslider {
+  width: 100%;
+  height: 100%;
+  max-height: 360px;
+}
+
 
 
 /* Billede slider til banner */
 
+/* Billede slider til post */
 
+.slideshow1 {
+  max-width: 4076px;
+  position: relative;
+  margin: auto;
+}
+
+
+.prev1, .next1 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next1 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev1:hover, .next1:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.firekant1 {
+  cursor: pointer;
+  height: 5px;
+  width: 40px;
+  margin: 0 2px;
+  background-color: #bbb;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active1, .firekant1:hover {
+  background-color: #FFFFFF;
+}
+
+.firekanter1 {
+  text-align:center;
+}
+
+.billedeslider1 {
+  width: 100%;
+  height: 100%;
+  max-height: 360px;
+}
+
+
+/* Billede slider til post */
 
 
 .valg {
