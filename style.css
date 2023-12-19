@@ -18,7 +18,7 @@
   src: url(fonts/VAGRoundedLtNormal.ttf);
 }
 
-/* Hamburger menu  */
+/* Hamburger menu slut  */
 
 .header {
   background-color: #E1DACF;
@@ -159,9 +159,9 @@
 }
 
 
-/* Hamburger menu  */
+/* Hamburger menu slut */
 
-/* Billede slider til banner */
+/* Billede slider start*/
 
 .slideshow {
   max-width: 4076px;
@@ -196,92 +196,11 @@
   background-color: rgba(0,0,0,0.8);
 }
 
-.firekant {
-  cursor: pointer;
-  height: 5px;
-  width: 40px;
-  margin: 0 2px;
-  background-color: #bbb;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .firekant:hover {
-  background-color: #FFFFFF;
-}
-
-.firekanter {
-  text-align:center;
-}
-
 .billedeslider {
   width: 100%;
 }
 
-
-
-/* Billede slider til banner */
-
-/* Billede slider til banner */
-
-.slideshow1 {
-  max-width: 4076px;
-  position: relative;
-  margin: auto;
-}
-
-
-.prev1, .next1 {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-
-.next1 {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-
-.prev1:hover, .next1:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-.firekant1 {
-  cursor: pointer;
-  height: 5px;
-  width: 40px;
-  margin: 0 2px;
-  background-color: #bbb;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active1, .firekant1:hover {
-  background-color: #FFFFFF;
-}
-
-.firekanter1 {
-  text-align:center;
-}
-
-.billedeslider1 {
-  width: 100%;
-}
-
-
-
-/* Billede slider til banner */
+/* Billede slider slut*/
 
 
 .valg {
@@ -350,8 +269,12 @@
 
 .somevalg {
   width: 100%;
-  height: auto;
-  max-width: 768px;
+  max-width: 390px;
+}
+
+.billedepost {
+  width: 100%;
+  max-width: 390px;
 }
 
 .somemobil {
@@ -364,7 +287,10 @@
   margin-bottom: 25px;
   margin-left: 40px;
   margin-right: 40px;
+
 }
+
+
 
 footer {
     background-color: #e1dace;
@@ -562,6 +488,28 @@ hr {
   margin-right: 0px;
 }
 
+.somevalg {
+  width: 100%;
+  max-width: 4000px;
+}
+
+.billedepost {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+
+.slogan {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
 .somemobil {
   display: none;
 }
@@ -682,7 +630,7 @@ hr {
 }
 
 
-@media only screen and (min-width: 1920px) {
+@media only screen and (min-width: 1600px) {
   
   
   /* Hamburger menu */
@@ -809,6 +757,22 @@ hr {
     margin-left: 222px;
     margin-right: 222px;
   }
+
+
+  .somevalg {
+    width: 100%;
+    max-width: 4000px;
+  }
+  
+  .billedepost {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    border-radius: 20px;
+  }
+
 
   .skrift {
     font-size: 30px;
