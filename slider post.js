@@ -1,15 +1,15 @@
 let slideIndex1 = 1;
-showSlides(slideIndex1);
+showSlides1(slideIndex1);
 
-function plusSlides(n) {
-  showSlides(slideIndex1 += n);
+function plusSlides1(n) {
+  showSlides1(slideIndex1 += n);
 }
 
-function currentSlide(n) {
-  showSlides(slideIndex1 = n);
+function currentSlide1(n) {
+  showSlides1(slideIndex1 = n);
 }
 
-function showSlides(n) {
+function showSlides1(n) {
   let i;
   let slides = document.getElementsByClassName("mySlides1");
   let dots = document.getElementsByClassName("firekant1");

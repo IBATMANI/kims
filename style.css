@@ -216,15 +216,13 @@
 
 .billedeslider {
   width: 100%;
-  height: 100%;
-  max-height: 360px;
 }
 
 
 
 /* Billede slider til banner */
 
-/* Billede slider til post */
+/* Billede slider til banner */
 
 .slideshow1 {
   max-width: 4076px;
@@ -279,12 +277,11 @@
 
 .billedeslider1 {
   width: 100%;
-  height: 100%;
-  max-height: 360px;
 }
 
 
-/* Billede slider til post */
+
+/* Billede slider til banner */
 
 
 .valg {
