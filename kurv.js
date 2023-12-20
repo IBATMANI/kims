@@ -1,6 +1,11 @@
+
 let clickCount = 0;
 
-document.getElementById('banner2').addEventListener('click', function() {
+function handleClick() {
     clickCount++;
     document.getElementById('counter').textContent = clickCount;
-});
+}
+
+document.getElementById('banner2').addEventListener('click', handleClick);
+document.getElementById('banner3').addEventListener('click', handleClick);
+document.getElementById('banner4').addEventListener('click', handleClick);

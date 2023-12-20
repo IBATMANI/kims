@@ -267,6 +267,20 @@
   cursor: pointer;
 }
 
+#banner3 {
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+#banner4 {
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
 #kurv {
   display: block;
   top: 10px;
@@ -593,6 +607,30 @@ hr {
 
 }
 
+
+#banner2 {
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+#banner3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+#banner4 {
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+
+
 .somemobil {
   display: none;
 }
@@ -841,7 +879,26 @@ hr {
     margin-right: 222px;
   }
 
-
+  #banner2 {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+  }
+  
+  #banner3 {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+  }
+  
+  #banner4 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+  }
   .somevalg {
     width: 100%;
     max-width: 4000px;
