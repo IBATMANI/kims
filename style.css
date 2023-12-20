@@ -309,6 +309,11 @@
   max-width: 390px;
 }
 
+.billedepost2 {
+  width: 100%;
+  max-width: 390px;
+}
+
 .somemobil {
   float: left;
   width: 50%;
@@ -595,6 +600,14 @@ hr {
 }
 
 .billedepost {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+
+.billedepost2 {
   width: 100%;
   display: block;
   margin-left: auto;
@@ -983,16 +996,26 @@ hr {
     margin-right: 0px;
   }
 
-  .slideshow {
+  .myslides2 {
     display: none;
     max-width: 4076px;
     position: relative;
     margin: auto;
   }
   
+  .billedepost2 {
+    display: none;
+  }
+  
   .somefb {
     display: flex;
     justify-content: space-evenly;
+  }
+
+  .billedepost3 {
+    width: 100%;
+    max-width: 390px;
+    border-radius: 20px;
   }
   
 }
