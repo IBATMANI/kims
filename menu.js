@@ -6,6 +6,6 @@ document.addEventListener('DOMContentLoaded', function () {
         navLinks.classList.toggle('show');
 
         const isNavVisible = navLinks.classList.contains('show');
-        toggleIcon.src = isNavVisible ? 'x.svg' : 'ham.svg';
+        toggleIcon.src = isNavVisible ? 'pics/desktop/x.svg' : 'pics/desktop/ham.svg';
     });
 });
