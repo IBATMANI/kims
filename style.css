@@ -309,6 +309,71 @@
 
 }
 
+.nyhedsbrev {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  background-color: #EBE3D9;
+  padding: 50px;
+  font-family: VAG Rounded Black SSi;
+}
+
+.input {
+  flex-grow: 1;
+  font-size: 22px;
+  
+}
+
+#textBox {
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.openPopupButton {
+  background-color: #C01422;
+  font-size: 22px;
+  border-radius: 20px;
+  color: #ffffff;
+  font-family: VAG Rounded Black SSi;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.popup-indhold {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #EBE3D9;
+  padding: 20px;
+  border-radius: 20px;
+  font-family: VAG Rounded Black SSi;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #C01422;
+}
 
 
 footer {
@@ -792,6 +857,14 @@ hr {
     border-radius: 20px;
   }
 
+  .nyhedsbrev {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    background-color: #EBE3D9;
+    padding: 50px 500px;
+  }
 
   .skrift {
     font-size: 30px;
