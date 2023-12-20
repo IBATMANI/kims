@@ -510,6 +510,10 @@ hr {
   display: none;
 }
 
+.somefb {
+  display: none;
+}
+
 @media only screen and (min-width: 768px) {
 
   
@@ -748,6 +752,10 @@ hr {
   margin-right: 0px;
 }
 
+.somefb {
+  display: none;
+}
+
 }
 
 
@@ -974,5 +982,18 @@ hr {
     margin-left: 0px;
     margin-right: 0px;
   }
+
+  .slideshow {
+    display: none;
+    max-width: 4076px;
+    position: relative;
+    margin: auto;
+  }
+  
+  .somefb {
+    display: flex;
+    justify-content: space-evenly;
+  }
   
 }
+
